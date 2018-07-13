@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Used for Date &amp; Time calculations in Formula&apos;s, Process Builders and Workflows</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Time_Zone_Display_Name__c</fullName>
+        <description>The Time Zone Display Name for the GMT Offset</description>
+        <externalId>false</externalId>
+        <label>Time Zone Display Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Time_Zone_Id__c</fullName>
+        <description>The Time Zone Id for the GMT Offset</description>
+        <externalId>false</externalId>
+        <label>Time Zone Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Update_Org_Defaults__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag, if set, will update the Org Defaults with this time zone as well.</description>
+        <externalId>false</externalId>
+        <label>Update Org Defaults</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Value__c</fullName>
+        <description>Value of the GMT Offset</description>
+        <externalId>false</externalId>
+        <label>Value MSEC</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_HR__c</fullName>
+        <description>Value in HR of the GMT Offset</description>
+        <externalId>false</externalId>
+        <label>Value HR</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_MIN__c</fullName>
+        <description>Value in MIN of the GMT Offset</description>
+        <externalId>false</externalId>
+        <label>Value MIN</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_SEC__c</fullName>
+        <description>Value in SEC of the GMT Offset</description>
+        <externalId>false</externalId>
+        <label>Value SEC</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <!--listViews>
+        <fullName>All</fullName>
+        <columns>SetupOwnerId</columns>
+        <columns>Time_Zone_Display_Name__c</columns>
+        <columns>Time_Zone_Id__c</columns>
+        <columns>Value__c</columns>
+        <columns>Value_SEC__c</columns>
+        <columns>Value_MIN__c</columns>
+        <columns>Value_HR__c</columns>
+        <columns>Update_Org_Defaults__c</columns>
+        <columns>LastModifiedDate</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews-->
+    <label>GMT Offset</label>
+    <visibility>Public</visibility>
+</CustomObject>
