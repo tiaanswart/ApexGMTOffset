@@ -12,6 +12,7 @@ Install the package:
 </a>
 
 <br/>
+<br/>
 
 Then run the scheduled job at 2AM every day by executing the below code in the Developer Console:
 
